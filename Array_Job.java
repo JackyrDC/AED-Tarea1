@@ -1,4 +1,3 @@
-import java.math.*;
 public class Array_Job
 {
  public static void main(String[] args)
