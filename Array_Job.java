@@ -6,7 +6,6 @@ public class Array_Job
     Integer b[]={25,40,30,10,15,20};
     test(a);
     test(b);
-
  }
 
  public static void test(Integer b[])
@@ -37,8 +36,7 @@ public class Array_Job
       System.out.println(b[j]+"\n");
    }
  }
-
- public static void remove( Integer a[])
+public static void remove( Integer a[])
  {
     Integer n=(int)(Math.random()*a.length);
     if(a[n] != null)
