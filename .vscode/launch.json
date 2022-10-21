@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CaesarCipher",
+            "request": "launch",
+            "mainClass": "CaesarCipher",
+            "projectName": "AED-Tarea1_af3a6a3e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Remover",
+            "request": "launch",
+            "mainClass": "Remover",
+            "projectName": "AED-Tarea1_af3a6a3e"
+        },
+        {
+            "type": "java",
             "name": "Launch Pseudoaleatorios",
             "request": "launch",
             "mainClass": "Pseudoaleatorios",
