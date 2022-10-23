@@ -16,11 +16,14 @@ public class TicTacToe {
      public void putMark(int i, int j) throws IllegalArgumentException {
      if ((i < 0) || (i > 2) || (j < 0) || (j > 2))
      throw new IllegalArgumentException("Invalid board position");
+     if(winner() != 0)
+     throw new IllegalStateException("Ya existe un ganador");
      if (board[i][j] != EMPTY)
      throw new IllegalArgumentException("Board position occupied");
      board[i][j] = player; // place the mark for the current player
      player = -  player; // switch players (uses fact that O = - X)
-     }
+
+    }
     //Checks whether the board configuration is a win for the given player. ∗/
      /**
      * @param mark
@@ -74,4 +77,4 @@ public class TicTacToe {
          String[ ] outcome = {"O wins", "Tie", "X wins"}; // rely on ordering
          System.out.println(outcome[1 + winningPlayer]);
          }
-         }
+        }
