@@ -1,0 +1,2 @@
+El cambio en estas líneas no debería incider en el funcionamiento del programa, ya que de tener un size de 0, el tail no existiría o no 
+tendría un valor, por lo tanto la asignación de el valor nulo es innecesario.

@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class Remover {
     public static void main(String args[])
@@ -11,6 +10,9 @@ public class Remover {
         delete(alumnos);
     }
 
+    /**
+     * @param Arr
+     */
     public static void delete(Object[] Arr)
     {
         boolean vacio=false;
